@@ -1,0 +1,13 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "kellyhaesekercom",
+    "description": "",
+    "home_page_url": "http://kellyhaeseker.com",
+    "feed_url": "http://kellyhaeseker.com/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Kelly Haeseker"
+    },
+    "items": [
+    ]
+}
