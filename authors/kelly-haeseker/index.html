@@ -4,11 +4,11 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-            <title>KELLY HAESEKER</title>
+            <title>Author: Kelly Haeseker - KELLY HAESEKER</title>
         
         <meta name="robots" content="noindex, follow" />
         <meta name="generator" content="Publii Open-Source CMS for Static Site" />
-        <link rel="canonical" href="http://kellyhaeseker.com/">
+        <link rel="canonical" href="http://kellyhaeseker.com/authors/kelly-haeseker/">
         
         <link type="application/atom+xml" rel="alternate" href="http://kellyhaeseker.com/feed.xml"/>
         <meta property="og:title" content="KELLY HAESEKER" /><meta property="og:site_name" content="KELLY HAESEKER" /><meta property="og:description" content="" />
@@ -47,12 +47,14 @@
             </div>-->
         </header>
     <main>
-        <article class="post u-wrapper">
-            <header class="hero">
-                <h1>[MISSING TRANSLATION]</h1>
-            </header>
-            <p>[MISSING TRANSLATION]</p>
-        </article>
+        <div class="hero u-wrapper">
+                <h1>Kelly Haeseker
+                    <sup>(0)</sup>
+                </h1>
+        </div>
+            <div
+                class="layout layout--3">
+            </div>
     </main>
     <footer class="footer">
     	<nav class="navbar js-navbar">
@@ -81,6 +83,16 @@
     
     <script defer src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script defer src="http://kellyhaeseker.com/assets/js/scripts.min.js?v=f503b0ac46db9f99180b3b9f932c7f9a"></script>
+       <script defer src="http://kellyhaeseker.com/assets/js/isotope.pkgd.min.js?v=5bfb20272e72259dc05df0f54a8eb038"></script>
+       <script>
+           window.addEventListener('DOMContentLoaded', function() {
+               (function($) {
+                $(document).ready(function() {
+                    var grid=$(".layout").isotope({itemSelector:".card",layoutMode:"masonry",masonry:{columnWidth:".card"},transitionDuration:"0.6s"});$(".layout").each(function(){var t=$(this);this.addEventListener("load",function(){t.isotope("layout")},!0)});var items=grid.find(".card");grid.addClass("layout--is-showing-cards").isotope("revealItemElements",items),$(".filter").on("click",".filter__item",function(){var t=$(this).attr("data-filter");grid.isotope({filter:t})});
+                });
+               })(jQuery);
+           });
+       </script>
     
     </body>
     </html>
