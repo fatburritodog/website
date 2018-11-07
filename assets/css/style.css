@@ -107,9 +107,6 @@ body {
 a {
   color: #ff80ab;
   text-decoration: none;
-  -webkit-transition: all 0.12s linear 0s;
-  -o-transition: all 0.12s linear 0s;
-  transition: all 0.12s linear 0s;
 }
 
 a:hover {
@@ -675,12 +672,6 @@ textarea {
   height: 4rem;
   position: fixed;
   width: 92%;
-  -webkit-transition: all 0.25s ease-out;
-  -o-transition: all 0.25s ease-out;
-  transition: all 0.25s ease-out;
-  -webkit-transform: translateY(2%);
-  -ms-transform: translateY(2%);
-  transform: translateY(2%);
   z-index: 999;
 }
 
@@ -2356,9 +2347,18 @@ footer {
   padding: 2% !important;
   display: block !important;
   text-align: left !important;
+  margin-top: 4rem !important;
 }
 footer .navbar__menu li {
-  margin: 0 2rem 0 0rem;
+  margin: 0 1.2rem 0 0rem;
+  font-size: 0.8rem;
+}
+footer button {
+  height: 30px;
+  margin-left: 2em;
+  margin-top: -1px;
+  background: #1c6b56;
+  border-color: #1c6b56;
 }
 /*# sourceMappingURL=main.css.map */
 
