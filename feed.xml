@@ -3,10 +3,27 @@
     <title>kelly-haeseker</title>
     <link href="http://kellyhaeseker.com/feed.xml" rel="self" />
     <link href="http://kellyhaeseker.com" />
-    <updated>1969-12-31T16:00:00-08:00</updated>
+    <updated>2018-11-07T08:01:16-08:00</updated>
     <author>
         <name>Kelly Haeseker</name>
     </author>
     <id>http://kellyhaeseker.com</id>
 
+    <entry>
+        <title>Imminent Loss: Film Festival</title>
+        <author>
+            <name>Kelly Haeseker</name>
+        </author>
+        <link href="http://kellyhaeseker.com/imminent-loss-film-festival/"/>
+        <id>http://kellyhaeseker.com/imminent-loss-film-festival/</id>
+
+        <updated>2018-11-07T06:26:42-08:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                <p>+Branding, Illustration, Concept</p>
+<p>Project Description</p>
+            ]]>
+        </content>
+    </entry>
 </feed>

@@ -2230,18 +2230,43 @@ main {
 
 /* Theme additions */
 
+body {
+  background: #f8f8f8;
+}
+
 .container {
   max-width: none;
   min-height: 100vh;
   display: flex;
   align-items: start;
   flex-direction: column;
+  padding: 0;
 }
 
 .container > header {
   max-width: none;
   z-index: auto;
   background: none;
+  padding: 2%;
+  top: 0;
+  width: 100%;
+  transform: none !important;
+  border-bottom: 1px solid #1c6b56;
+}
+
+.container > header.post {
+  max-width: none;
+  z-index: auto;
+  background: none;
+  padding: 2%;
+  top: 0;
+  width: 100%;
+  transform: none !important;
+  background: #1c6b56;
+  color: white;
+}
+.container > header.post * {
+  color: white !important;
 }
 
 .container > main {
@@ -2250,6 +2275,22 @@ main {
   display: flex;
   align-items: center;
   margin-top: 0;
+}
+
+.container > main.post {
+  display: block;
+  flex: none;
+  margin-top: 6rem;
+}
+
+.container > main.post .hero {
+  height: 11rem;
+  background: #1c6b56;
+  padding-top: 3rem;
+}
+.container > main.post .hero h1 {
+  color: white;
+  font-size: 3rem;
 }
 
 .container > main .hero.u-wrapper {
@@ -2273,5 +2314,28 @@ main {
 
 nav.filter {
   display: none;
+}
+.navbar__menu li {
+  margin: 0 4rem 0 0rem;
+}
+
+.contact h1 {
+  font-size: 3.3rem;
+  text-align: left;
+  color: #1c6b56;
+}
+.contact header {
+  margin-bottom: 1.5rem !important;
+  margin-top: 10rem;
+}
+
+.contact input,
+textarea {
+  width: 360px;
+}
+
+.contact button {
+  background: #1c6b56;
+  border-color: #1c6b56;
 }
 /*# sourceMappingURL=main.css.map */

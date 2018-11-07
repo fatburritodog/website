@@ -2230,18 +2230,43 @@ main {
 
 /* Theme additions */
 
+body {
+  background: #f8f8f8;
+}
+
 .container {
   max-width: none;
   min-height: 100vh;
   display: flex;
   align-items: start;
   flex-direction: column;
+  padding: 0;
 }
 
 .container > header {
   max-width: none;
   z-index: auto;
   background: none;
+  padding: 2%;
+  top: 0;
+  width: 100%;
+  transform: none !important;
+  border-bottom: 1px solid #1c6b56;
+}
+
+.container > header.post {
+  max-width: none;
+  z-index: auto;
+  background: none;
+  padding: 2%;
+  top: 0;
+  width: 100%;
+  transform: none !important;
+  background: #1c6b56;
+  color: white;
+}
+.container > header.post * {
+  color: white !important;
 }
 
 .container > main {
@@ -2250,6 +2275,22 @@ main {
   display: flex;
   align-items: center;
   margin-top: 0;
+}
+
+.container > main.post {
+  display: block;
+  flex: none;
+  margin-top: 6rem;
+}
+
+.container > main.post .hero {
+  height: 11rem;
+  background: #1c6b56;
+  padding-top: 3rem;
+}
+.container > main.post .hero h1 {
+  color: white;
+  font-size: 3rem;
 }
 
 .container > main .hero.u-wrapper {
@@ -2274,83 +2315,31 @@ main {
 nav.filter {
   display: none;
 }
+.navbar__menu li {
+  margin: 0 4rem 0 0rem;
+}
+
+.contact h1 {
+  font-size: 3.3rem;
+  text-align: left;
+  color: #1c6b56;
+}
+.contact header {
+  margin-bottom: 1.5rem !important;
+  margin-top: 10rem;
+}
+
+.contact input,
+textarea {
+  width: 360px;
+}
+
+.contact button {
+  background: #1c6b56;
+  border-color: #1c6b56;
+}
 /*# sourceMappingURL=main.css.map */
 
-a,
-.post__entry a:hover,
-.post__tag li > a:hover,
-.post__tag li > a:active,
-.post__tag li > a:focus,
-.post__nav__prev:hover h5:before,
-.post__nav__next:hover h5:after,
-.inverse:hover,
-.inverse:active,
-.inverse:focus{
-        color: #1C6B56;
-}
-.footer__social .icon:hover {
-  fill: #1C6B56;
-
-  }
-
-.btn, [type=button],
-[type=submit],
-button {
-        background: #1C6B56;
-        border-color: #1C6B56;
-}
-.btn:hover, [type=button]:hover,
-[type=submit]:hover,
-button:hover, .btn:focus, [type=button]:focus,
-[type=submit]:focus,
-button:focus {
-        background: #111111;
-        border-color: #111111;
-}
-.btn:focus, [type=button]:focus,
-[type=submit]:focus,
-button:focus {
-       outline-color: #111111;
-}
-.btn:active, [type=button]:active,
-[type=submit]:active,
-button:active,
-[type=text]:focus,
-[type=url]:focus,
-[type=tel]:focus,
-[type=number]:focus,
-[type=email]:focus,
-[type=search]:focus,
-textarea:focus,
-select:focus,
-select[multiple]:focus {
-   border-color: #1C6B56;
-}
-[type=checkbox]:checked + .checkbox:before {
-        color: #1C6B56;
-}
-.card--featured:before,
-.post--featured .post__title:after {
-        background-color: #1C6B56;
-}
-[type=radio]:checked + .radio:before {
-        background: #1C6B56;
-}
-.tag-menu ul li > a {
-        color: #111111;
-}
-.cookie-bar {
-        border-color: #1C6B56;
-}
-@media all and (max-width: 56.1875em) {
- .has-submenu:after {
-       border-color: #1C6B56;
-  }
-  }
-.navbar__menu li a:hover:not(span),
- .navbar__menu li span:hover:not(span) {
-   color: #1C6B56;
-  }
 .layout {
         margin: -0.5rem;
 }
