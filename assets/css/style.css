@@ -2230,8 +2230,13 @@ main {
 
 /* Theme additions */
 
-body {
+body,
+.container {
   background: #f8f8f8;
+}
+
+header.js-top {
+  position: absolute !important;
 }
 
 .container {
@@ -2337,6 +2342,13 @@ textarea {
 .contact button {
   background: #1c6b56;
   border-color: #1c6b56;
+}
+
+.about {
+  margin-top: 9rem;
+}
+.about p {
+  width: 350px;
 }
 /*# sourceMappingURL=main.css.map */
 
