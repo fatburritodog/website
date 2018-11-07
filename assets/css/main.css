@@ -2350,4 +2350,14 @@ textarea {
 .about p {
   width: 350px;
 }
+
+footer {
+  width: 100%;
+  padding: 2% !important;
+  display: block !important;
+  text-align: left !important;
+}
+footer .navbar__menu li {
+  margin: 0 2rem 0 0rem;
+}
 /*# sourceMappingURL=main.css.map */
