@@ -2362,6 +2362,81 @@ footer button {
 }
 /*# sourceMappingURL=main.css.map */
 
+a,
+.post__entry a:hover,
+.post__tag li > a:hover,
+.post__tag li > a:active,
+.post__tag li > a:focus,
+.post__nav__prev:hover h5:before,
+.post__nav__next:hover h5:after,
+.inverse:hover,
+.inverse:active,
+.inverse:focus{
+        color: #7FCA9E;
+}
+.footer__social .icon:hover {
+  fill: #7FCA9E;
+
+  }
+
+.btn, [type=button],
+[type=submit],
+button {
+        background: #7FCA9E;
+        border-color: #7FCA9E;
+}
+.btn:hover, [type=button]:hover,
+[type=submit]:hover,
+button:hover, .btn:focus, [type=button]:focus,
+[type=submit]:focus,
+button:focus {
+        background: #111111;
+        border-color: #111111;
+}
+.btn:focus, [type=button]:focus,
+[type=submit]:focus,
+button:focus {
+       outline-color: #111111;
+}
+.btn:active, [type=button]:active,
+[type=submit]:active,
+button:active,
+[type=text]:focus,
+[type=url]:focus,
+[type=tel]:focus,
+[type=number]:focus,
+[type=email]:focus,
+[type=search]:focus,
+textarea:focus,
+select:focus,
+select[multiple]:focus {
+   border-color: #7FCA9E;
+}
+[type=checkbox]:checked + .checkbox:before {
+        color: #7FCA9E;
+}
+.card--featured:before,
+.post--featured .post__title:after {
+        background-color: #7FCA9E;
+}
+[type=radio]:checked + .radio:before {
+        background: #7FCA9E;
+}
+.tag-menu ul li > a {
+        color: #111111;
+}
+.cookie-bar {
+        border-color: #7FCA9E;
+}
+@media all and (max-width: 56.1875em) {
+ .has-submenu:after {
+       border-color: #7FCA9E;
+  }
+  }
+.navbar__menu li a:hover:not(span),
+ .navbar__menu li span:hover:not(span) {
+   color: #0D6B58;
+  }
 .layout {
         margin: -0.5rem;
 }
