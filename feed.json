@@ -10,6 +10,19 @@
     },
     "items": [
         {
+            "id": "http://kellyhaeseker.com/explorations/",
+            "url": "http://kellyhaeseker.com/explorations/",
+            "title": "Explorations",
+            "content_html": "<p>These are just examples of how I go about doing some iterations.</p>\n<p> </p>\n<p><img src=\"http://kellyhaeseker.com/media/posts/4/attwn_bw_1.jpg\" alt=\"\" width=\"501\" height=\"648\"></p>\n<p><img src=\"http://kellyhaeseker.com/media/posts/4/attwn_bw_2.jpg\" alt=\"\" width=\"501\" height=\"648\"></p>\n<p><img src=\"http://kellyhaeseker.com/media/posts/4/attwn_r_1.jpg\" alt=\"\" width=\"432\" height=\"576\"></p>\n<p> </p>",
+            "author": {
+                "name": "Kelly Haeseker"
+            },
+            "tags": [
+            ],
+            "date_published": "2019-04-01T16:53:54-07:00",
+            "date_modified": "2019-04-02T15:47:10-07:00"
+        },
+        {
             "id": "http://kellyhaeseker.com/imminent-loss-film-festival/",
             "url": "http://kellyhaeseker.com/imminent-loss-film-festival/",
             "title": "Imminent Loss: Film Festival",

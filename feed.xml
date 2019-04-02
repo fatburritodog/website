@@ -3,12 +3,33 @@
     <title>kelly-haeseker</title>
     <link href="http://kellyhaeseker.com/feed.xml" rel="self" />
     <link href="http://kellyhaeseker.com" />
-    <updated>2019-03-28T12:49:46-07:00</updated>
+    <updated>2019-04-02T15:47:18-07:00</updated>
     <author>
         <name>Kelly Haeseker</name>
     </author>
     <id>http://kellyhaeseker.com</id>
 
+    <entry>
+        <title>Explorations</title>
+        <author>
+            <name>Kelly Haeseker</name>
+        </author>
+        <link href="http://kellyhaeseker.com/explorations/"/>
+        <id>http://kellyhaeseker.com/explorations/</id>
+
+        <updated>2019-04-02T15:47:10-07:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                <p>These are just examples of how I go about doing some iterations.</p>
+<p> </p>
+<p><img src="http://kellyhaeseker.com/media/posts/4/attwn_bw_1.jpg" alt="" width="501" height="648"></p>
+<p><img src="http://kellyhaeseker.com/media/posts/4/attwn_bw_2.jpg" alt="" width="501" height="648"></p>
+<p><img src="http://kellyhaeseker.com/media/posts/4/attwn_r_1.jpg" alt="" width="432" height="576"></p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Imminent Loss: Film Festival</title>
         <author>
